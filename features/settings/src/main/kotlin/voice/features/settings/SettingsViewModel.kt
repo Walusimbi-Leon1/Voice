@@ -180,11 +180,11 @@ class SettingsViewModel(
   }
 
   override fun getSupport() {
-    navigator.goTo(Destination.Website("https://github.com/Walusimbi-Leon1/Voice/issues"))
+    navigator.goTo(Destination.Website("https://walusimbi-leon1.github.io/voice-support/"))
   }
 
   override fun suggestIdea() {
-    navigator.goTo(Destination.Website("https://github.com/Walusimbi-Leon1/Voice/issues"))
+    navigator.goTo(Destination.Website("https://walusimbi-leon1.github.io/voice-support/"))
   }
 
   override fun openBugReport() {
