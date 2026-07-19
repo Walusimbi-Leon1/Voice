@@ -26,7 +26,7 @@ class DataMigrationTests {
   @Before
   fun setup() {
     val context = ApplicationProvider.getApplicationContext<Application>()
-    sharedPreferences = context.getSharedPreferences("de.ph1b.audiobook_preferences", Context.MODE_PRIVATE)
+    sharedPreferences = context.getSharedPreferences("com.walusimbi.leon.audiobook_preferences", Context.MODE_PRIVATE)
     factory = VoiceDataStoreFactory(Json { ignoreUnknownKeys = true }, context)
   }
 
