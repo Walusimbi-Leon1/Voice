@@ -101,4 +101,9 @@ sealed interface Destination {
   data class AddContent(val origin: Origin) : Compose {
     override val trackingName: String = "AddContent"
   }
+
+  @Serializable
+  data object Download : Compose {
+    override val trackingName: String get() = "Download"
+  }
 }

@@ -257,6 +257,10 @@ class SettingsViewModel(
     }
   }
 
+  override fun openDownloads() {
+    navigator.goTo(Destination.Download)
+  }
+
   override fun openDeveloperMenu() {
     navigator.goTo(Destination.DeveloperSettings)
   }

@@ -244,6 +244,23 @@ private fun Settings(
       }
       item {
         ListItem(
+          modifier = Modifier.clickable { listener.openDownloads() },
+          leadingContent = {
+            Icon(
+              imageVector = VoiceIcons.Download,
+              contentDescription = "Download SGSS Audiobooks",
+            )
+          },
+          headlineContent = {
+            Text("Download SGSS Audiobooks")
+          },
+          supportingContent = {
+            Text("Download audiobooks from the SGSS collection")
+          },
+        )
+      }
+      item {
+        ListItem(
           modifier = Modifier.clickable { listener.openFaq() },
           leadingContent = {
             Icon(
