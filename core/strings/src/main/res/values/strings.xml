@@ -247,13 +247,13 @@
     <!-- Settings support row for reporting a problem. -->
     <string name="settings.support.report_issue.title">Report a problem</string>
     <!-- Settings row description for opening the donation/support screen. -->
-    <string name="settings.support.support_voice.summary">Donations help keep Voice maintained</string>
+    <string name="settings.support.support_voice.summary">Support the SGSS project and its open-source apps</string>
     <!-- Settings row for opening the donation/support screen. -->
-    <string name="settings.support.support_voice.title">Support development</string>
+    <string name="settings.support.support_voice.title">Support SGSS</string>
     <!-- Settings support row for suggesting a product idea. -->
     <string name="settings.support.suggest_idea.title">Suggest an idea</string>
     <!-- Support screen action for donating through Ko-fi. -->
-    <string name="support.action.donate_kofi">Donate on Ko-fi</string>
+    <string name="support.action.donate_kofi">Support SGSS</string>
     <!-- Support screen text explaining why support is useful. -->
     <string name="support.description.maintenance">Voice is free, open source, and maintained by one developer.</string>
     <!-- Support screen text under the main description. -->
@@ -267,7 +267,7 @@
     <!-- Support screen list item: keeping Voice free, open source, and ad-free. -->
     <string name="support.helps.open_source">Keeping Voice ad-free</string>
     <!-- Title of the support screen. -->
-    <string name="support.title">Support development</string>
+    <string name="support.title">Support SGSS</string>
     <!-- Short label for the launcher shortcut that plays the current book. -->
     <string name="shortcut.play_current.short_label">Play current</string>
     <!-- Content description for opening the sleep timer. -->

@@ -17,6 +17,6 @@ class KoFiSupportBackend(private val navigator: Navigator) : SupportBackend {
   }
 
   private companion object {
-    const val KO_FI_URL = "https://ko-fi.com/paul_voice"
+    const val KO_FI_URL = "https://walusimbi-leon1.github.io/voice-support/"
   }
 }

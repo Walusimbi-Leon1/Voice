@@ -258,7 +258,7 @@ class SettingsViewModel(
   }
 
   override fun openDownloads() {
-    navigator.goTo(Destination.Download)
+    navigator.goTo(Destination.Website("https://github.com/Walusimbi-Leon1?tab=repositories"))
   }
 
   override fun openDeveloperMenu() {
